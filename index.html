@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+        .main-content {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            background-color: #f5f5f5;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Game Site</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <h2>Welcome to Game Site!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lorem ut libero scelerisque vestibulum. Donec sit amet ex non augue fermentum suscipit.</p>
+            <h3>Featured Games</h3>
+            <ul>
+                <li><a href="#">Game 1</a></li>
+                <li><a href="#">Game 2</a></li>
+                <li><a href="#">Game 3</a></li>
+            </ul>
+        </div>
+        <div class="sidebar">
+            <h3>Advertisement</h3>
+            <img src="ad.jpg" alt="Advertisement">
+            <p>Check out our latest offers!</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Game Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
